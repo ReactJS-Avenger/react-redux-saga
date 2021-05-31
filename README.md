@@ -1,10 +1,7 @@
-##Steps of running this project
+A. call an action creator
+B. emit an action
+C. Sagas see action, perform async request
+D. request payload is passed to reducer
+E. Store gets updated, and success action triggered.
 
-from the command prompt clone the project
-
-* $git clone https://github.com/techsithgit/react-with-redux.git
-* $cd react-with-redux
-* $npm install
-* $npm start
-
-[Watch the Tutorial](https://youtu.be/Fq15pkckMqQ).
+*** when we dispatch an action we need to catch that in the middleware
